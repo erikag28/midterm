@@ -1,0 +1,44 @@
+
+.hero{
+  height: 350px;
+  background: url(images/black.jpg);
+  background-position: center;
+  margin-bottom: 20px;
+}
+div.left{
+  background: url(images/catering.jpeg);
+  background-size: cover;
+}
+div.middle{
+  background: url(images/noodles.jpeg);
+  background-size: cover;
+}
+div.right{
+  background: url(images/platter.jpg);
+  background-size: cover;
+}
+div.container{
+ border: 5px solid #94d6f3; 
+}
+div.left, div.middle, div.right{
+border: 3px dotted green;
+width: 30%;
+height: 250px;
+} 
+aside{
+  display: flex;
+  justify-content: space-around;
+}
+header{
+  background-color: aquamarine;
+}
+ img{
+  width: 100%;
+ }
+ ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+ }
+ 
+ 
